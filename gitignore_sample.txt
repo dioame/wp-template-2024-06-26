@@ -1,0 +1,24 @@
+# Ignore WordPress core files
+/wp-admin/
+/wp-includes/
+
+# Ignore configuration files
+/wp-config.php
+/wp-config-sample.php
+
+# Ignore uploads and other dynamic content
+/wp-content/uploads/
+/wp-content/cache/
+/wp-content/upgrade/
+
+# Ignore themes and plugins (unless you want to track them)
+# Uncomment the following lines if you want to track specific themes or plugins
+# /wp-content/themes/your-theme/
+# /wp-content/plugins/your-plugin/
+
+# Ignore other unnecessary files
+/node_modules/
+/vendor/
+*.log
+*.sql
+*.tar.gz
